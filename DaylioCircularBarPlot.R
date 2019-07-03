@@ -107,7 +107,7 @@ df$value[df$mood=="rad"] <- 55
 
 #Creates plot 
 #Change graph key with color property
-p = ggplot(df, aes(color= value, x=as.factor(id), y=value)) + 
+p = ggplot(df, aes(color= mood, x=as.factor(id), y=value)) + 
   
   #creates bars
   geom_bar(stat="identity", alpha=0.5, width = 0.7) +
