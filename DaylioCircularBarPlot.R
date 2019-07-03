@@ -106,7 +106,7 @@ df$value[df$mood=="rad"] <- 55
 
 
 #Creates plot 
-#Change graph key with color property
+#Change graph key with color property (mood for moods, value for numeric representation, group for months)
 p = ggplot(df, aes(color= mood, x=as.factor(id), y=value)) + 
   
   #creates bars
@@ -132,5 +132,5 @@ p = ggplot(df, aes(color= mood, x=as.factor(id), y=value)) +
   
 
   #Save plot as high quality JPG
-  ggsave("daylio_Positive_Value.jpg", dpi = 1000)
+  ggsave("daylio_Positive_Mood.jpg", dpi = 1000)
 
