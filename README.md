@@ -1,6 +1,6 @@
 # DaylioCircularBarplot
 
-R script to take a CSV file from the mood-tracking app Daylio and create a circular barplot visualization. 
+R script to take a CSV file from the mood-tracking app Daylio and create a circular barplot visualization of a full year. Deafult is for 365 days but can be changed.
 
 Default output:
 ![positive_mood](https://raw.githubusercontent.com/lmccay4/DaylioCircularBarplot/master/depressionPositive_Mood.jpg)
